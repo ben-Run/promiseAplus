@@ -1,0 +1,25 @@
+{
+  "name": "promiseAplus",
+  "version": "1.0.0",
+  "description": "my promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testPromise": "promises-aplus-tests myPromise/promise3.js",
+    "dev": "nodemon ./myPromise/index.js -i "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ben-Run/promiseAplus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ben-Run/promiseAplus/issues"
+  },
+  "homepage": "https://github.com/ben-Run/promiseAplus#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
